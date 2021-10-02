@@ -1,4 +1,4 @@
-.About p {
+.About main p {
     color: white;
     text-align: justify;
     width: 90%;
@@ -6,11 +6,12 @@
     font-size: 24px;
 }
 
-.About a {
-    color: black;
+.About main a {
+    color: white;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.About a:hover {
+.About main a:hover {
     text-decoration: underline;
 }
