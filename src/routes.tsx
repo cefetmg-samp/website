@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import About from './pages/About'
 import Publications from './pages/Publications'
@@ -8,10 +8,12 @@ import Members from './pages/Members'
 
 const Routes = () => (
     <BrowserRouter>
-        <Route path="/" exact component={About} />
-        <Route path="/publications" exact component={Publications} />
-        <Route path="/repos" exact component={Repos} />
-        <Route path="/members" exact component={Members} />
+        <Switch>
+            <Route path="/" exact component={About} />
+            <Route path="/publications" component={Publications} />
+            <Route path="/repos" component={Repos} />
+            <Route path="/members" component={Members} />
+        </Switch>
     </BrowserRouter>
 );
 
