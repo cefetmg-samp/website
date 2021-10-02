@@ -1,0 +1,18 @@
+.Repos .main-link {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: all .1s linear;
+    border-radius: 5px;
+}
+
+.Repos .main-link:hover {
+    background-color: white;
+    color: var(--bg-color);
+}
