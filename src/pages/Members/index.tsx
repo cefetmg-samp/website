@@ -1,7 +1,6 @@
 import Header from '../../components/Header'
 import Nav from '../../components/Nav'
-
-import './style.css'
+import Anchor from '../../components/Anchor'
 
 const Members = () => {
     return (
@@ -9,22 +8,18 @@ const Members = () => {
             <Header />
             <Nav />
             <main>
-                <a 
-                    className="member" target="_blank" rel="noreferrer"
-                    href="https://linkedin.com/in/juliocros"
-                > Julio Cesar Rocha </a>
-                <a 
-                    className="member" target="_blank" rel="noreferrer"
-                    href="https://linktr.ee/pcmferreira"
-                > Pedro César Mesquita Ferreira </a>
-                <a 
-                    className="member" target="_blank" rel="noreferrer"
-                    href="https://linkedin.com/in/rrnovaesjr"
-                > Rodrigo Novaes </a>
-                <a 
-                    className="member" target="_blank" rel="noreferrer"
-                    href="https://linkedin.com/in/sandrord"
-                > Sandro Renato Dias </a>
+                <Anchor url="https://linkedin.com/in/juliocros">
+                    Julio Cesar Rocha
+                </Anchor>
+                <Anchor url="https://linktr.ee/pcmferreira">
+                    Pedro César Mesquita Ferreira
+                </Anchor>
+                <Anchor url="https://linkedin.com/in/rrnovaesjr">
+                    Rodrigo Novaes
+                </Anchor>
+                <Anchor url="https://linkedin.com/in/sandrord">
+                    Sandro Renato Dias
+                </Anchor>
             </main>
         </div>
     );

@@ -1,7 +1,6 @@
 import Header from '../../components/Header'
 import Nav from '../../components/Nav'
-
-import './style.css'
+import Anchor from '../../components/Anchor'
 
 const Repos = () => {
     return (
@@ -9,14 +8,8 @@ const Repos = () => {
             <Header />
             <Nav />
             <main>
-                <a
-                    className="main-link" target="_blank" rel="noreferrer"
-                    href="https://github.com/cefetmg-samp"
-                > GitHub </a>
-                <a
-                    className="main-link" target="_blank" rel="noreferrer"
-                    href="https://gitlab.com/cefetmg"
-                > GitLab </a>
+                <Anchor url="https://github.com/cefetmg-samp">GitHub</Anchor>
+                <Anchor url="https://gitlab.com/cefetmg">GitLab</Anchor>
             </main>
         </div>
     );
