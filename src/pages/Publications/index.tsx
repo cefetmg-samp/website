@@ -12,6 +12,9 @@ const Publications = () => {
                 <Anchor url={`${baseURL}/semanact-2021`}>
                     {'Semana C&T 2021'}
                 </Anchor>
+                <Anchor url={`${baseURL}/iaria-vehicular-2020`}>
+                    IARIA VEHICULAR 2020
+                </Anchor>
                 <Anchor url={`${baseURL}/meta-2019`}>
                     META 2019
                 </Anchor>
