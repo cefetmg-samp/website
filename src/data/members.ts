@@ -2,6 +2,10 @@ import MemberInterface from '../models/member-interface'
 
 const membersData: MemberInterface[] = [
     {
+        name: 'Jônata Cirqueira',
+        url: 'https://www.linkedin.com/in/j%C3%B4nata-cirqueira-748b3b174/',
+    },
+    {
         name: 'Julio Cesar Rocha',
         url: 'https://linkedin.com/in/juliocros',
     },
