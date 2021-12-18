@@ -1,6 +1,6 @@
 {
-  "name": "cefetmg-samp.github.io",
-  "version": "0.1.0",
+  "name": "website",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
