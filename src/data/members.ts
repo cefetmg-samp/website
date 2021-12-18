@@ -6,6 +6,10 @@ const membersData: MemberInterface[] = [
         url: 'https://www.linkedin.com/in/daniel-santos-aaa612164/'
     },
     {
+        name: 'Diogo Santos',
+        url: 'https://www.linkedin.com/in/diogo-emanuel-antunes-santos-23579b221'
+    },
+    {
         name: 'Jônata Cirqueira',
         url: 'https://www.linkedin.com/in/j%C3%B4nata-cirqueira-748b3b174/',
     },
