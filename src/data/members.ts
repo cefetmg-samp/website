@@ -6,6 +6,10 @@ const membersData: MemberInterface[] = [
         url: 'https://www.linkedin.com/in/anaclaraoliveiradejesus/'
     },
     {
+        name: 'André Rodrigues da Cruz',
+        url: 'http://lattes.cnpq.br/3346655862356439',
+    },
+    {
         name: 'Daniel Santos',
         url: 'https://www.linkedin.com/in/daniel-santos-aaa612164/'
     },
