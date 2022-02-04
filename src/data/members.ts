@@ -3,7 +3,7 @@ import MemberInterface from '../models/member-interface'
 const membersData: MemberInterface[] = [
     {
         name: 'Ana Clara',
-        url: 'https://www.linkedin.com/in/anaclaraoliveiradejesus/'
+        url: 'https://www.linkedin.com/in/anaclaraoliveiradejesus/',
     },
     {
         name: 'André Rodrigues da Cruz',
@@ -11,11 +11,11 @@ const membersData: MemberInterface[] = [
     },
     {
         name: 'Daniel Santos',
-        url: 'https://www.linkedin.com/in/daniel-santos-aaa612164/'
+        url: 'https://www.linkedin.com/in/daniel-santos-aaa612164/',
     },
     {
         name: 'Diogo Santos',
-        url: 'https://www.linkedin.com/in/diogo-emanuel-antunes-santos-23579b221'
+        url: 'https://www.linkedin.com/in/diogo-emanuel-antunes-santos-23579b221',
     },
     {
         name: 'Jônata Cirqueira',
