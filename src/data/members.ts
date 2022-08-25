@@ -9,6 +9,10 @@ const membersData: MemberInterface[] = [
         name: 'André Rodrigues da Cruz',
         url: 'http://lattes.cnpq.br/3346655862356439',
     },
+     {
+        name: 'Beatriz Siqueira Campos',
+        url: 'https://www.linkedin.com/in/beatriz-siqueira-campos/',
+    },
     {
         name: 'Daniel Santos',
         url: 'https://www.linkedin.com/in/daniel-santos-aaa612164/',
@@ -16,6 +20,10 @@ const membersData: MemberInterface[] = [
     {
         name: 'Diogo Santos',
         url: 'https://www.linkedin.com/in/diogo-emanuel-antunes-santos-23579b221',
+    },
+    {
+        name: 'Gustavo Brito',
+        url: 'https://www.linkedin.com/in/gustavobritodam/',
     },
     {
         name: 'Jônata Cirqueira',
